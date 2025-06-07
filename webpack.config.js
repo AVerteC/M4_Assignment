@@ -23,12 +23,12 @@ const config = {
             },
         ],
     },
-    optimization: {
-        splitChunks: {
-            name: 'vendor',
-            chunks: 'all',
-        },
-    },
+    // optimization: {
+    //     splitChunks: {
+    //         name: 'vendor',
+    //         chunks: 'all',
+    //     },
+    // },
     devtool: 'source-map'
 }
 
